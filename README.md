@@ -22,7 +22,7 @@ MY-Easy-Pic-Bed 是专门为喜欢在电脑上使用markdown写博客、写笔�
 
 &nbsp;
 
-你可能会说，我直接把图片同意放置在一个文件夹里不就好了吗？
+你可能会说，我直接把图片统一放置在一个文件夹里不就好了吗？
 
 &nbsp;
 
@@ -30,7 +30,7 @@ MY-Easy-Pic-Bed 是专门为喜欢在电脑上使用markdown写博客、写笔�
 
 &nbsp;
 
-没事，现在有了 MY-Easy-Pic-Bed ，这一切都只需要交给它，你著需要专心于写作即可！
+没事，现在有了 MY-Easy-Pic-Bed ，这一切都只需要交给它，你只需要专心于写作即可！
 
 &nbsp;
 
@@ -124,3 +124,75 @@ python3 app.py
 ```
 
 于是，程序就成功启动了！
+
+
+-------------------------------
+English Edition
+
+[you can go to the official website of the project for more help]（ http://my-easy-pic-bed.ringotek.cn )
+#What is this?
+ 
+My-Easy-Pic-Bed is a lightweight pic bed server software, which is open source with Apache lincense 2.0. It is based on Python 3.8 and flask framework, basically no configuration, you can build a pic bed on your computer. Of course, you can also move it to your server and become a pic bed for external services.
+  
+#What's the use?
+ 
+My-Easy-Pic-Bed is designed for students to write notes on their computers. With it, you no longer need to worry that the illustrations of your article will need to be reconfigured due to changes in file paths.
+ 
+You just need to put the picture in my easy pic bed and just insert the address returned by the program in the markdown file to insert the picture!
+ 
+You might say, I just put the pictures in one folder?
+ 
+Yes, but if you use My-Easy-Pic-Bed, you can easily move your notes between multiple computers without having to worry about where the files are stored. Imagine if you put the files in a folder instead of my easy pic bed, you need to reconfigure the image links of each article when you change your computer! It's a lot of work!
+ 
+It's OK, now that you have my easy pic bed, all you need to do is hand it over. You just need to concentrate on your writing!
+ 
+#How to use my easy pic bed in notes?
+ 
+You just need to send the picture to your My-Easy-Pic-Bed and fill in the markdown file with the link it returns.
+ 
+When changing the computer, you just need to copy my easy pic bed file directory and your notes to the new computer, and then run my easy pic bed and text editor. You can use your notes again as you did on your previous computer!
+  
+######Note that you need to keep my easy pic bed open as you edit your notes to make sure the pictures are displayed properly. However, please rest assured that this will not affect the fluency of your computer at all!
+  
+---
+Title: installing My-Easy-Pic-Bed
+date: 2020-11-16 21:44:27
+tags: document
+---
+#Before you start
+##Environmental preparation
+Please install Python 3.8 on your computer in advance
+then
+Enter in the console
+` ` ` `
+pip install flask
+` ` ` `
+#Download my easy pic bed
+First, you need to download the project to your computer on GitHub
+` ` ` `
+git clone  https://github.com/fslongjin/My-Easy-Pic-Bed.git
+` ` ` `
+Chinese mainland download and accelerate
+If you are in Chinese mainland, you can accelerate your download by following commands.
+` ` ` `
+git clone  https://gitclone.com/github.com/fslongjin/My-Easy-Pic-Bed.git
+` ` ` `
+
+nbsp;nbsp;
+#Before you start
+ 
+##Please install My-Easy-Pic-Bed first
+ 
+#Run My-Easy-Pic-Bed
+ 
+At this point, the installation is over! It seems that My-Easy-Pic-Bed is the easiest pic bed software ever installed!
+ 
+###For Windows platform
+You just double-click startProgram.exe to run My-Easy-Pic-Bed!
+ 
+###For Linux platform
+You need to open the terminal in the root directory of My-Easy-Pic-Bed and execute the following command:
+` ` ` `
+python3  app.py
+` ` ` `
+So, the program started successfully!
