@@ -1,6 +1,6 @@
 
 [您可以进入项目的官方网站获取更多帮助](http://my-easy-pic-bed.ringotek.cn)
-
+# (For users who speak English, there is an readme.md in English edition, please roll down the page to read)
 
 # 这是啥？
 
@@ -129,7 +129,7 @@ python3 app.py
 -------------------------------
 English Edition
 
-[您可以进入项目的官方网站获取更多帮助](http://my-easy-pic-bed.ringotek.cn)
+[You can visit the official website of this project for more help](http://my-easy-pic-bed.ringotek.cn)
 # What is this?
  
 My-Easy-Pic-Bed is a lightweight pic bed server software, which is open source with Apache lincense 2.0. It is based on Python 3.8 and flask framework, basically no configuration, you can build a pic bed on your computer. Of course, you can also move it to your server and become a pic bed for external services.
