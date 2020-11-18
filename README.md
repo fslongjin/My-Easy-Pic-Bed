@@ -129,12 +129,12 @@ python3 app.py
 -------------------------------
 English Edition
 
-[you can go to the official website of the project for more help]（ http://my-easy-pic-bed.ringotek.cn )
-#What is this?
+[您可以进入项目的官方网站获取更多帮助](http://my-easy-pic-bed.ringotek.cn)
+# What is this?
  
 My-Easy-Pic-Bed is a lightweight pic bed server software, which is open source with Apache lincense 2.0. It is based on Python 3.8 and flask framework, basically no configuration, you can build a pic bed on your computer. Of course, you can also move it to your server and become a pic bed for external services.
   
-#What's the use?
+# What is the use?
  
 My-Easy-Pic-Bed is designed for students to write notes on their computers. With it, you no longer need to worry that the illustrations of your article will need to be reconfigured due to changes in file paths.
  
@@ -159,15 +159,15 @@ Title: installing My-Easy-Pic-Bed
 date: 2020-11-16 21:44:27
 tags: document
 ---
-#Before you start
-##Environmental preparation
+# Before you start
+# Environmental preparation
 Please install Python 3.8 on your computer in advance
 then
 Enter in the console
 ` ` ` `
 pip install flask
 ` ` ` `
-#Download my easy pic bed
+# Download my easy pic bed
 First, you need to download the project to your computer on GitHub
 ` ` ` `
 git clone  https://github.com/fslongjin/My-Easy-Pic-Bed.git
@@ -178,19 +178,20 @@ If you are in Chinese mainland, you can accelerate your download by following co
 git clone  https://gitclone.com/github.com/fslongjin/My-Easy-Pic-Bed.git
 ` ` ` `
 
-nbsp;nbsp;
-#Before you start
+nbsp;
+nbsp;
+# Before you start
  
-##Please install My-Easy-Pic-Bed first
+# Please install My-Easy-Pic-Bed first
  
-#Run My-Easy-Pic-Bed
+##Run My-Easy-Pic-Bed
  
 At this point, the installation is over! It seems that My-Easy-Pic-Bed is the easiest pic bed software ever installed!
  
-###For Windows platform
+### For Windows platform
 You just double-click startProgram.exe to run My-Easy-Pic-Bed!
  
-###For Linux platform
+### For Linux platform
 You need to open the terminal in the root directory of My-Easy-Pic-Bed and execute the following command:
 ` ` ` `
 python3  app.py
